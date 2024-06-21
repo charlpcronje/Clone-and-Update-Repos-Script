@@ -12,8 +12,8 @@ This script automates the process of cloning multiple repositories, renaming the
 
 1. **Clone this repository:**
    ```bash
-   git clone https://github.com/yourusername/yourrepository.git
-   cd yourrepository
+   git clone https://github.com/charlpcronje/Clone-and-Update-Repos-Script
+   cd Clone-and-Update-Repos-Script
    ```
 
 2. **Create the `repos.json` file:**
@@ -96,7 +96,7 @@ The virtual host template used by the script:
 
 ```apache
 # {repo}
-<VirtualHost 212.227.241.186:82>
+<VirtualHost {your ip address}:80>
     ServerName {repo}
     ServerAdmin charl@webally.co.za
     DocumentRoot /var/www/docs/{repo}/public
